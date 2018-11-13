@@ -1,0 +1,44 @@
+<app>
+	<name>Java Card OpenPGP Applet</name>
+	<authors>
+		<author>
+			<name></name>
+			<e-mail></e-mail>
+			<web-site></web-site>
+		</author>
+	</authors>
+	<company>javacardos</company>
+	<licene>GNU General Public License version 2.0 (GPLv2)</license>
+	<cap-file>OpenPGPApplet.cap</cap-file>
+	<icon-file-cart>openpgp_cart.jpg</icon-file-cart>
+	<icon-file-desc>openpgp_des.jpg</icon-file-desc>
+	<version>1.10</version>
+	<signed-by>Not Signed</signed-by>
+	<release-date>2016-04-21</release-date>
+	<description>
+	This project implement the OpenPGP card functionality. OpenPGP is an open standard for signing and encrypting. 
+	It enables RSA or ECC sign/encrypt operations using a private key stored on a smartcard (such as ), through common interfaces like PKCS#11
+	</description>
+	<features>
+		<feature></feature>
+		<feature></feature>
+		<feature></feature>
+	</features>
+	<repositories>
+		<reporitory>https://github.com/JavaCardOS/OpenPGPApplet</reporitory>
+		<reporitory>https://sourceforge.net/projects/openpgp/</reporitory>
+	</repositories>
+	<discussions>
+		<discussion></discussion>
+	<discussions>
+	<users>
+		<user>
+		<user-id>hitesh.lilhare@gmail.com</user-id>
+		<raiting>3</raiting>
+		<comment></comment>
+		</user>
+		<user-id>hiteshlilhare.13@gmail.com</user-id>
+		<raiting>4</raiting>
+		<comment></comment>
+	</users>
+</app>

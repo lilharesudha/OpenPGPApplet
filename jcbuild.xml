@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project basedir="." default="build" name="OpenPGPApplet">
+  <!-- Based on Martin Paljak's applets playground -->
+  <!-- Applet building dependencies -->
+  <property name="JC222" value="../ext/java_card_kit-2_2_2"/>
+  <property name="JC303" value="../ext/java_card_kit-3_0_3"/>
+  <property name="OP20" value="../ext/visa_openplatform-2_0"/>
+  <property name="GP211" value="../ext/globalplatform-2_1_1"/>
+  
+  <!-- ant-javacard task from javacard.pro -->
+  <taskdef name="javacard" classname="pro.javacard.ant.JavaCard" classpath="../../tools/ext/ant-javacard.jar"/>
+
+  <target name="build" description="Builds the CAP file with SimpleApplet">
+    <javacard jckit="${JC222}">
+      <cap output="!uploader/OpenPGPApplet.cap" sources="src/" aid="D27600012401">
+        <applet class="openpgpcard.OpenPGPApplet" aid="D2760001240102000000000000010000"/>
+      </cap>
+    </javacard>
+  </target>
+</project>
